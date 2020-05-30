@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.lmy.common.config.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lmy.common.feign.fallback.UserServiceFallbackFactory

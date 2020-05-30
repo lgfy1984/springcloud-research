@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <root level="INFO">
+        <appender-ref ref="StdoutAppender"/>
+    </root>
+    <logger name="com.lmy.log.monitor" level="DEBUG"   >
+    </logger>
+    <logger name="com.lmy.mapper" level="DEBUG"     >
+    </logger>
+</included>

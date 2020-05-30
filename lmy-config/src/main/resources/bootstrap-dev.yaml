@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: 43afba73-d8df-4039-95f2-541bfa644910
+        server-addr: vip.nacos.com:80

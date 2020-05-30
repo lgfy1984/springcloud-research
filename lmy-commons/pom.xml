@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lmy</groupId>
+        <artifactId>springcloud-research</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>lmy-commons</artifactId>
+    <description>通用组件</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>lmy-redis</module>
+        <module>lmy-common</module>
+        <module>lmy-db</module>
+        <module>lmy-swagger2</module>
+        <module>lmy-log</module>
+        <module>lmy-ribbon</module>
+        <module>lmy-auth-client</module>
+        <module>lmy-sentinel</module>
+        <module>lmy-common-core</module>
+        <module>lmy-elasticsearch</module>
+    </modules>
+</project>

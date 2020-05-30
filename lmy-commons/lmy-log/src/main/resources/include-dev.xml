@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <root level="INFO">
+        <appender-ref ref="StdoutAppender"/>
+        <appender-ref ref="file_async"/>
+    </root>
+    <logger name="com.lmy.log.monitor" level="DEBUG"  addtivity="false" >
+        <appender-ref ref="point_log_async"/>
+    </logger>
+    <logger name="com.lmy.mapper" level="DEBUG"   addtivity="false"  >
+        <appender-ref ref="point_log_async"/>
+    </logger>
+</included>

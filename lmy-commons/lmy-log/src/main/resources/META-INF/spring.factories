@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.lmy.log.config.TtlMDCAdapterInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lmy.log.config.LogAutoConfigure,\
+com.lmy.log.service.impl.LoggerAuditServiceImpl,\
+com.lmy.log.service.impl.DbAuditServiceImpl,\
+com.lmy.log.aspect.AuditLogAspect
