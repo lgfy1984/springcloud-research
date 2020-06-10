@@ -4,6 +4,13 @@ server:
     buffer-size: 1024
     direct-buffers: true
 
+  ssl:
+    #    keyAlias: xx.com
+    key-store-type: PKCS12
+    key-store: classpath:https.p12
+    key-store-password: 123456
+    enabled: true
+
 spring:
   application:
     name: api-gateway
