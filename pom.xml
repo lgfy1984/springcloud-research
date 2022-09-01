@@ -30,7 +30,7 @@
         <jjwt.version>0.9.1</jjwt.version>
         <druid-starter>1.1.10</druid-starter>
         <jasypt.version>3.0.0</jasypt.version>
-        <jsoup.version>1.13.1</jsoup.version>
+        <jsoup.version>1.15.3</jsoup.version>
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
         <security-oauth2.version>2.3.5.RELEASE</security-oauth2.version>
         <security-jwt.version>1.0.9.RELEASE</security-jwt.version>
